@@ -1,8 +1,8 @@
 Feature: CreateLead functionality in LeafTaps application
 
-Background:
-Given Open the Chrome browser
-And Load the application URL as "http://leaftaps.com/opentaps/control/main"
+#Background:
+#Given Open the Chrome browser
+#And Load the application URL as "http://leaftaps.com/opentaps/control/main"
 
 Scenario: Create Lead with only mandatory fields
 

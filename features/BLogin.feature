@@ -1,8 +1,8 @@
 Feature: Login functionality for leafTaps application
 
-Background:
-Given Open the Chrome browser
-And Load the application URL as "http://leaftaps.com/opentaps/control/main"
+#Background:
+#Given Open the Chrome browser
+#And Load the application URL as "http://leaftaps.com/opentaps/control/main"
 
 Scenario Outline: Login with correct credentials
 

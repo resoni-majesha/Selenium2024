@@ -3,7 +3,8 @@ package runner;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = "src/test/java/features/DLogin.feature", glue = "steps")
+@CucumberOptions(features = {"src/test/java/features/BLogin.feature", "src/test/java/features/CreateLead.feature"}, glue = "steps")
+// @CucumberOptions(features = {"src/test/java/features"}, glue = "steps")
 public class RunLogin extends AbstractTestNGCucumberTests {
 
 	public static void main(String[] args) {

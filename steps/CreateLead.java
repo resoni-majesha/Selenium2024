@@ -52,6 +52,9 @@ public class CreateLead extends BaseClass {
 * This is one method
 * 
 * The other way is give the package name itself
-* @CucumberOptions(features = {"src/test/java/features}, glue = "steps"), s it will execute all the files in this package
+* @CucumberOptions(features = {"src/test/java/features}, glue = "steps"), it will execute all the files in this package
+* The order of execution will be as per the order in the package
+* If yu want to change the execution order, change the file names
+* TC001_BLogin.feature, TC002_CreateLead.feature
 *
 */
